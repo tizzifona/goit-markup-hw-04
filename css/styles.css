@@ -128,11 +128,11 @@ nav .current {
 .main-section {
   margin: 0 auto;
   max-width: 1600px;
-  background-color: var(--dark-bg);
   background-image: linear-gradient(to top,
     var(--gradient-color),
     var(--gradient-color)),
   url(../images/main-photo.jpg);
+  background-color: var(--dark-bg);
   background-position: center;
   text-align: center;
   padding-top: 200px;
