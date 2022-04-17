@@ -132,7 +132,7 @@ nav .current {
   background-image: linear-gradient(to top,
     var(--gradient-color),
     var(--gradient-color)),
-  url(../images/main_photo.jpg);
+  url(../images/main-photo.jpg);
   background-position: center;
   text-align: center;
   padding-top: 200px;
