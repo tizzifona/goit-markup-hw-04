@@ -350,18 +350,14 @@ footer a {
   margin-bottom: 9px;
 }
 .join-btns {
-  width: 206px;
-  height: 80px;
-  margin-left: 156px;
+  margin-left: 70px;
 }
-.join-btns h3 {
-font-weight: 700;
-line-height: 1.14;
-font-size: 14px;
+.join-btns strong {
+  display: block;
 text-transform: uppercase;
 color: var(--white-text-color);
-margin-bottom: 20px;
 /* margin-left: 156px; */
+margin-bottom: 20px;
 }
 .footer-container {
   display: flex;
@@ -436,10 +432,14 @@ margin-bottom: 50px;
 .portfolio-item {
   width: 370px;
   margin-right: 30px;
-  cursor: pointer;
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px var(--shadow-color1),
   0px 4px 4px var(--shadow-color6),
   1px 4px 6px var(--shadow-color7);
